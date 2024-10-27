@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido - ¿Qué clase quieres iniciar?</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+<body>
+    <div class="toggle-container">
+        <label class="switch">
+            <input type="checkbox" id="modeToggle" onchange="toggleDarkMode()">
+            <span class="slider"></span>
+        </label>
+        <p class="mode-text" id="modeText">Modo Claro</p>
+    </div>
+
+    <div class="container">
+        <h1>Bienvenido</h1>
+        <p>¿Qué clase quieres iniciar?</p>
+
+        <div class="options">
+            <button class="option-btn" onclick="toggleContent('computadora')">¿Qué es la computadora?</button>
+            <button class="option-btn" onclick="toggleContent('ofimatica')">¿Qué es la ofimática?</button>
+        </div>
+
+        <div id="computadora" class="content">
+            <h2>¿Qué es la computadora?</h2>
+            <p><strong>Definición básica:</strong>Un computador, computadora u ordenador es una máquina digital programable, de funcionamiento electrónico, capaz de procesar grandes 
+                cantidades de datos a grandes velocidades. Así obtiene información útil que luego presenta a un operador humano, o transmite a otros sistemas mediante redes informáticas de distinto tipo.</p>
+            <p>La computadora es la herramienta más versátil, potente y revolucionaria que el ser humano ha creado en su historia reciente. Representa el punto cumbre de la Revolución industrial, 
+                científica y tecnológica que presenció el siglo XX después de la Segunda Guerra Mundial.</p>
+            <p>Su presencia y popularización en nuestro tiempo no sólo cambió para siempre el modo de procesar la información en el mundo, sino también la manera de trabajar y concebir el trabajo, 
+                las formas de comunicarse a larga distancia, las formas de ocio, y muchas otras áreas de la vida cotidiana.</p>
+            <p>Consisten fundamentalmente en un gran número de circuitos integrados, componentes de apoyo y extensiones electrónicas. Sin embargo, las computadoras han cambiado radicalmente a lo 
+                largo de su propia y rápida historia, pasando de ser enormes e incómodas instalaciones, a ocupar un lugar tan pequeño como el bolsillo de nuestros pantalones, en el caso de los teléfonos inteligentes.</p>
+            
+            <h3>Categorías principales:</h3>
+            <ul>
+                <li><strong>Hardware:</strong> La parte física y tangible del sistema, o sea, sus componentes eléctricos y electrónicos, que cumplen con diversas funciones fundamentales, 
+                    como la realización de cálculos o la alimentación eléctrica del sistema. De algún modo equivaldría al “cuerpo” de la computadora.</li>
+                <li><strong>Software:</strong> La parte intangible, digital, abstracta, del sistema, que se ocupa de las operaciones de tipo conceptual o representacional, normalmente dentro 
+                    de un entorno virtual simulado, esto es, dentro de una simulación que hace más amable la interacción con el usuario. Esto abarca todo tipo de programas, desde los programas 
+                    de base (como el Sistema Operativo que mantiene andando el sistema) hasta las aplicaciones posteriormente instaladas. Siguiendo la metáfora, equivaldría a la “mente” del computador.
+                </li>
+            </ul>
+
+            <h3>Tipos de computadoras:</h3>
+            <ul>
+                <li><strong>Supercomputadoras:</strong> Los aparatos de mayor potencia del mundo son, en realidad, conjuntos de computadoras distintas integrados en una sola unidad, 
+                    que pueden potenciarse de manera exponencial. La supercomputadora más grande del mundo se encuentra en la Universidad Nacional de Tecnología de Defensa de China, 
+                    se llama Tianhe-2 y puede realizar unos 33.48 mil billones de operaciones por segundo..</li>
+                <li><strong>Mainframes:</strong> oras, y suelen tener un gran tamaño (al menos comparado con los computadores portátiles) y hallarse en habitaciones cuidadosamente 
+                    refrigeradas dentro de las grandes empresas o instituciones de un país, en donde llevan a cabo millones de cálculos y operaciones por segundo, alimentando redes 
+                    y sistemas computarizados enteros con información</li>
+                <li><strong>Computadoras personales (PCs):</strong> Unidades destinadas al uso de un solo usuario a la vez, permitiéndole realizar muy diversas tareas, entre ellas 
+                    conectarse a una red informática y enviar y recibir datos a altas velocidades. Poseen un microprocesador de potencia variable y son el tipo de computadoras a los 
+                    que podemos acceder comercialmente en cualquier tienda de tecnología. Se les conoce también como computadoras de escritorio.</li>
+                <li><strong>Computadores portátiles:</strong> Aunque se trata en efecto de computadoras personales, a este tipo de aparatos los listamos aparte porque se trata de 
+                    piezas físicamente ligeras, diseñadas para su uso en exteriores o para viajar con nosotros en un maletín. Aunque poseen menos potencia que las PC, lo compensan 
+                    en practicidad y movilidad.</li>
+                <li><strong>Tabletas y celulares:</strong> La generación más reciente de artefactos tecnológicos (gadgets) son esencialmente computadoras, aunque destinadas a 
+                    funciones distintas (generalmente más lúdicas o de comunicaciones) y de un tamaño todavía menor a las portátiles. Los celulares “inteligentes” son pequeñas 
+                    pero potentes computadoras dedicadas a las telecomunicaciones y la navegación por Internet, mientras que las tabletas son pequeñas pantallas táctiles con 
+                    funciones similares.</li>
+            </ul>
+            <h3>Categorías principales:</h3>
+            <ul>    
+                <li><strong>Motherboard:</strong> La tarjeta madre es el la tarjeta de circuitos que interconecta todo: hardware, fuente de alimentación y tarjetas gráficas, 
+                    así que es el primer componente que conviene elegir. La tarjeta madre determina también qué otras piezas de hardware puede requerir la computadora. En otras 
+                    palabras, no todos los componentes son compatibles con todas las tarjetas madre.
+                    <p>Por ejemplo, la tarjeta madre determina la capacidad del procesador que la PC puede manejar, la tecnología de memoria (DDR5, DDR4, DDR3, etc.), el factor de 
+                    la forma almacenamiento (2.5 in, mSATA o M.2) y la interfaz de almacenamiento (SATA o PCIe). (Si estos términos le parecen confusos, consulte nuestras 
+                    explicaciones sobre las distintas generaciones de tecnología de memoria y los factores de forma del almacenamiento).
+                        </p></li>
+                        <img src="imagnenes/descarga.jpeg" alt="Descripción de la imagen" style="width: 100%; max-width: 500px; height: auto;"> 
+
+                <li> <strong>Procesador o unidad central de procesamiento (CPU):</strong>La CPU es el “motor” de su computadora y de esta dependen las expectativas de desempeño 
+                    del ensamble completo de su computadora. La CPU es la base del poder de procesamiento de la computadora y contiene las instrucciones de todas sus operaciones.
+                    
+                    <p>Al decidir qué CPU instalar, ponga atención en los gigahertz (GHz); cuanto más alto sea el valor, más rápido será el procesador. Sin embargo, más GHz también 
+                    significa que la CPU consumirá más energía, lo que podría elevar las temperaturas del sistema y requerir más flujo de aire o mayor capacidad de disipación térmica. 
+                    Eso puede significar que también necesitará agregar un sistema de enfriamiento al equipo armado.
+                    </p></li>
+                    <img src="imagnenes/images.jpeg" alt="Descripción de la imagen" style="width: 100%; max-width: 500px; height: auto;"> 
+
+                    <li><strong>Memoria (RAM):</strong>Agregar memoria (RAM) es una de las maneras más rápidas y rentables de aumentar el desempeño de una computadora.
+                        <p>La RAM da al sistema más espacio libre para el almacenamiento temporal de los datos que está usando, lo que le ayuda a realizar tareas simultáneas, como 
+                            tener varios programas abiertos o navegar por la Internet sin tiempos de carga prolongados.</p>
+                        <p>La elección de la mejor RAM para un sistema implica dos cosas: compatibilidad y cuánta RAM admite el sistema. En primer lugar, identifique el tipo de módulo 
+                            que usa el sistema mediante el factor de forma (es decir, la forma física del módulo; en general, las computadoras de escritorio usan UDIMM, las computadoras 
+                            portátiles usan SODIMM); en seguida, averigüe cuál es la tecnología de memoria compatible con el sistema (DDR5, DDR4, DDR3, etc.).</p>
+                        <p>En segundo lugar, el sistema solo puede manejar cierta cantidad de GB de memoria. Si compra 64 GB de RAM y la computadora solo puede manejar 16 GB, eso significa 
+                            que se desperdiciarán 48 GB de memoria. Además, no todo el mundo necesita la misma cantidad de RAM: pien</p></li>
+                            <img src="imagnenes/memoria-ram.jpg" alt="Descripción de la imagen" style="width: 100%; max-width: 500px; height: auto;"> 
+                    <li><strong>Almacenamiento (SSD):</strong> Los archivos y datos se guardan en una unidad de almacenamiento, ya sea un disco duro (HDD) o una unidad de estado sólido (SSD). 
+                        Aunque las HDD han ofrecido tradicionalmente mayor capacidad de almacenamiento lo que da un buen beneficio por su costo, las SSD las han vuelto prácticamente obsoletas; 
+                        funcionan 6 veces más rápido en promedio y son 90 veces más eficientes desde el punto de vista energético que las HDD.</li>
+                        <img src="imagnenes/images (1).jpeg " alt="Descripción de la imagen" style="width: 100%; max-width: 500px; height: auto;"> 
+
+                    <li><strong>Gabinete, ventiladores y fuente de alimentación:</strong>El tipo de PC que está armando influirá también en el tipo de gabinete, ventiladores y fuente de 
+                        alimentación que necesitará. Si está armando, por ejemplo, un caballo de batalla de alto desempeño , necesitará una fuente de alimentación más robusta para hacerlo funcionar.
+                        <p>Además, necesitará un gabinete con flujo de aire interno óptimo y ventiladores para expulsar el aire caliente que pudiera dañar el sistema.</p>
+                        <p> Nuestro mejor consejo: El uso de cinchos de plástico es muy útil para organizar los cables dentro del equipo. Además, consolidar los cables mejora el flujo de aire.</p></li>
+                        <img src="imagnenes/450_1000.jpg" alt="Descripción de la imagen" style="width: 100%; max-width: 500px; height: auto;"> 
+
+            </ul>
+            <h3>Cómo armar una computadora:</h3>
+            <video controls>
+        <source src="Videos/Como_Ensamblar_una_PC_Barata_paso_a_paso_2024_Guia_BIEN_EXPLICADA.mp4" type="video/mp4">
+        Tu navegador no soporta el elemento de video. Puedes ver el video en el enlace de abajo.
+            </video>
+            <p><a href="https://youtu.be/jDgFbYoTtr4?si=TLItLXhdwUGpyZ-j" target="_blank">Tu navegador no soporta el elemento de video. Puedes ver el video en el enlace de abajo.</a></p>
+            <p><a href="https://www.youtube.com/@YANPOL" target="_blank">Con agradecimientos a YANPOL</a></p>
+            <h3>Preguntas</h3>
+            <div class="quiz" id="computerQuiz">
+                <p>Pregunta 1: ¿Qué es una computadora según la definición básica?</p>
+                <label><input type="radio" name="q1" value="A"> A) Un dispositivo únicamente diseñado para videojuegos.</label><br>
+                <label><input type="radio" name="q1" value="B"> B) Una máquina digital programable capaz de procesar grandes cantidades de datos.</label><br>
+                <label><input type="radio" name="q1" value="C"> C) Una herramienta exclusivamente destinada para la comunicación en línea.</label><br>
+                <label><input type="radio" name="q1" value="D"> D) Un aparato analógico de procesamiento manual.</label><br>
+    
+                <p>Pregunta 2: ¿Qué término se usa para describir la parte tangible de una computadora?</p>
+                <label><input type="radio" name="q2" value="A"> A) Software.</label><br>
+                <label><input type="radio" name="q2" value="B"> B) Hardware.</label><br>
+                <label><input type="radio" name="q2" value="C"> C) Sistema operativo.</label><br>
+                <label><input type="radio" name="q2" value="D"> D) Aplicación.</label><br>
+    
+                <p>Pregunta 3: ¿Cuál de los siguientes tipos de computadoras es el más potente y capaz de realizar miles de billones de operaciones por segundo?</p>
+                <label><input type="radio" name="q3" value="A"> A) Computadoras personales (PCs).</label><br>
+                <label><input type="radio" name="q3" value="B"> B) Computadoras portátiles.</label><br>
+                <label><input type="radio" name="q3" value="C"> C) Supercomputadoras.</label><br>
+                <label><input type="radio" name="q3" value="D"> D) Mainframes.</label><br>
+    
+                <p>Pregunta 4: ¿Qué componente de la computadora es considerado el "motor" y se encarga de todas las operaciones?</p>
+                <label><input type="radio" name="q4" value="A"> A) RAM.</label><br>
+                <label><input type="radio" name="q4" value="B"> B) CPU.</label><br>
+                <label><input type="radio" name="q4" value="C"> C) Almacenamiento SSD.</label><br>
+                <label><input type="radio" name="q4" value="D"> D) Motherboard.</label><br>
+    
+                <p>Pregunta 5: ¿Cuál es una ventaja principal de los discos SSD sobre los HDD?</p>
+                <label><input type="radio" name="q5" value="A"> A) Mayor capacidad de almacenamiento.</label><br>
+                <label><input type="radio" name="q5" value="B"> B) Mayor eficiencia energética y velocidad.</label><br>
+                <label><input type="radio" name="q5" value="C"> C) Menor precio.</label><br>
+                <label><input type="radio" name="q5" value="D"> D) Mayor necesidad de ventilación.</label><br>
+    
+                <button type="button" onclick="calculateScore('computerQuiz', ['B', 'B', 'C', 'B', 'B'], 'computerScore')">Enviar Respuestas</button>
+            </div>
+        </div>
+
+        <div id="ofimatica" class="content">
+            <h2>¿Qué es la ofimática?</h2>
+            <p>La ofimática es ese conjunto de aplicaciones y herramientas informáticas diseñadas para facilitar y mejorar las tareas relacionadas con la creación, edición, almacenamiento y 
+                distribución de información en el entorno de una oficina o empresa. Estas herramientas abarcan una amplia gama de funciones que permiten la creación de documentos, hojas de   
+                cálculo, presentaciones, folletos, etc., con el objetivo de aumentar la eficiencia y la productividad en el trabajo.</p>
+            <h3>Categorías principales:</h3>
+            <ul>
+                <h3>¿Que es word?</h3><p>Microsoft Word es un procesador de texto, automatiza y mejora la tarea de escribir revisando las veces necesarias, editar 
+                    y reformular antes de la etapa de impresión.</p>
+                <h3>Características de Microsoft Word:</h3>
+                <li><strong>Es versatil</strong></li>
+                <li><strong>Es compatible</strong></li>
+                <li><strong>Es accesible</strong></li>
+                <li><strong>Es multimedial</strong></li>
+                <li><strong>Es apto para almacenamiento</strong></li>
+                <li><strong>Es actualizable</strong></li>
+                <li><strong>Es integrable</strong></li>
+                <h3>Funcionalidades de Microsoft Word:</h3>
+                <img src="imagnenes/eef2dc823a4ae68085fabef1d7813e25.webp" alt="Descripción de la imagen" style="width: 100%; max-width: 500px; height: auto;"> 
+                <img src="imagnenes/plantillas-1024x577.jpg" alt="Descripción de la imagen" style="width: 100%; max-width: 500px; height: auto;">
+                <li><strong>Tipografías:</strong>Selección de fuentes.</li>
+                <li><strong>Tamaño de hoja:</strong>Configuración vertical u horizontal.</li>
+                <li><strong>Cortar y pegar:</strong>Con clic derecho o atajos de teclado.</li>
+                <li><strong>Imágenes</strong>Inserción de imágenes.</li>
+                <li><strong>Gráficos:</strong>Creación de cuadros explicativos.</li>
+                <li><strong>Tablas:</strong>CGeneración y exportación desde Excel.</li>
+                <li><strong>Corrector ortográfico:</strong> Detección de errores.</li>
+                <li><strong>Número de página:</strong>Numeración automática.</li>
+                <li><strong>Control de cambios:</strong>Registro de modificaciones.</li>
+                <li><strong>Plantillas:</strong>Uso de diseños preestablecidos.</li>
+                <li><strong>Guardado:</strong>Diversos formatos.</li>
+                <li><strong>Asistente:</strong> Ayuda para dudas del programa.</li>
+            </ul>
+            <ul>
+                <h3>¿Para qué sirve Microsoft Excel?</h3><p>Microsoft Excel, o simplemente Excel, es un software de aplicación de Microsoft que facilita tareas 
+                    contables, financieras y organizativas mediante hojas de cálculo. Forma parte del paquete Microsoft Office y es conocido por su popularidad 
+                    global desde su lanzamiento en 1985. Ofrece capacidades para gestionar tablas, fórmulas y gráficos. Originalmente llamado MS Excel tras una 
+                    controversia de marca, Microsoft luego adquirió el nombre. Funciona en Windows, Macintosh y otros sistemas operativos, y existen versiones 
+                    alternativas como OpenExcel y LibreExcel</p>
+                <h3>Tipo de Gráficos de Excel:</h3>
+                <strong>Columnas</strong>
+                <strong>Líneas</strong>
+                <strong>Circular</strong>
+                <strong>Barras</strong>
+                <strong>Áreas</strong>
+                <strong>XY Dispersión</strong>
+                <strong>Cotizaciones</strong>
+                <h3>Cómo usar Excel:</h3>
+                <li><strong>Abrir Excel:</strong> Inicia la aplicación y selecciona "Nueva hoja de cálculo".</li>
+                <li><strong>Ingresar Datos:</strong>Haz clic en una celda y escribe texto o números.</li>
+                <li><strong>Fórmulas:</strong>Comienza con = en una celda para realizar cálculos <span style="color: green;">(ej.=SUMA(A1:A5)</span>)</li>
+                <li><strong>Formato de Celdas:</strong> Selecciona celdas y usa la pestaña "Inicio" para cambiar el formato (fuente, color, bordes).</li>
+                <li><strong>Insertar Gráficos:</strong>Selecciona los datos y ve a "Insertar" > "Gráfico" para visualizar la información.</li>
+                <li><strong>Crear Tablas:</strong>Selecciona un rango de datos y haz clic en "Insertar" > "Tabla".</li>
+                <li><strong>Guardar:</strong>Ve a "Archivo" > "Guardar como" para guardar tu trabajo.</li>
+                <img src="imagnenes/image.png" alt="Descripción de la imagen" style="width: 100%; max-width: 500px; height: auto;">
+                <img src="imagnenes/Captura de pantalla 2024-10-27 005453.png" alt="Descripción de la imagen" style="width: 100%; max-width: 500px; height: auto;">
+                <img src="imagnenes/Captura de pantalla 2024-10-27 005721.png" alt="Descripción de la imagen" style="width: 100%; max-width: 350px; height: auto;">
+            </ul>
+            <ul>
+                <h3>¿Qué es PowerPoint?</h3><p>PowerPoint es un software de presentación desarrollado por Microsoft que permite crear diapositivas para exponer 
+                    información visualmente.</p>
+                <h3>¿Para qué sirve PowerPoint?</h3><p>Se utiliza para crear presentaciones interactivas que combinan texto, imágenes, gráficos y videos, 
+                    facilitando la comunicación de ideas en entornos académicos y profesionales.</p>
+                <h3>Importancia de PowerPoint</h3><p>Es una herramienta clave para presentar información de manera clara y atractiva, mejorar la retención de 
+                    contenido y facilitar el aprendizaje y la toma de decisiones en diversas audiencias.</p>
+                    <p><strong>1 Crear Presentación:</strong> Abre PowerPoint y selecciona "Nueva presentación".</p>
+                    <p><strong>2 Agregar Diapositivas:</strong> Haz clic en "Nueva diapositiva" y elige un diseño.</p>
+                    <p><strong>3 Insertar Contenido:</strong> Añade texto, imágenes, gráficos y tablas desde la pestaña "Insertar".</p>
+                    <p><strong>4 Diseñar Diapositivas:</strong> Usa la pestaña "Diseño" para cambiar fondos y colores.</p>
+                    <p><strong>5 Agregar Animaciones:</strong> Selecciona un objeto y elige un efecto en la pestaña "Animaciones".</p>
+                    <p><strong>6 Presentar:</strong> Haz clic en "Presentación de diapositivas" para comenzar a mostrar.</p>
+                    <p><strong>7 Guardar:</strong> Ve a "Archivo" > "Guardar como" para guardar tu trabajo.</p>
+                    <img src="imagnenes/Captura de pantalla 2024-10-27 011122.png" alt="Descripción de la imagen" style="width: 100%; max-width: 500px; height: auto;">
+                    <img src="imagnenes/Captura de pantalla 2024-10-27 011255.png" alt="Descripción de la imagen" style="width: 100%; max-width: 500px; height: auto;">
+                    <img src="imagnenes/Captura de pantalla 2024-10-27 011310.png" alt="Descripción de la imagen" style="width: 100%; max-width: 500px; height: auto;">
+            </ul>
+                <h3>Importancia en el trabajo</h3><p>
+                Gracias a la ofimática, es posible desarrollar y editar archivos de texto, crear hojas de cálculo y análisis de datos, realizar presentaciones 
+                visuales y tramitar archivos de manera más rápida y sencilla. También facilita la comunicación a distancia, la administración de las tareas 
+                empresariales y la gestión de todo tipo de bases de datos.</p>
+                <h3>Preguntas</h3>
+                <div class="quiz" id="officeAutomationQuiz">
+                    <p>Pregunta 1: ¿Qué es la ofimática?</p>
+                    <label><input type="radio" name="q1" value="A"> A) Un conjunto de herramientas de diseño gráfico</label><br>
+                    <label><input type="radio" name="q1" value="B"> B) Un conjunto de aplicaciones para mejorar la productividad en una oficina</label><br>
+                    <label><input type="radio" name="q1" value="C"> C) Un tipo de software para editar videos</label><br>
+                    <label><input type="radio" name="q1" value="D"> D) Una herramienta específica para almacenamiento de archivos</label><br>
+                
+                    <p>Pregunta 2: ¿Cuál de las siguientes opciones NO es una característica de Microsoft Word?</p>
+                    <label><input type="radio" name="q2" value="A"> A) Es versátil</label><br>
+                    <label><input type="radio" name="q2" value="B"> B) Es compatible</label><br>
+                    <label><input type="radio" name="q2" value="C"> C) Genera gráficos de dispersión</label><br>
+                    <label><input type="radio" name="q2" value="D"> D) Es actualizable</label><br>
+                
+                    <p>Pregunta 3: ¿Para qué se utiliza Microsoft Excel en un entorno empresarial?</p>
+                    <label><input type="radio" name="q3" value="A"> A) Crear presentaciones interactivas</label><br>
+                    <label><input type="radio" name="q3" value="B"> B) Realizar cálculos y análisis de datos</label><br>
+                    <label><input type="radio" name="q3" value="C"> C) Editar videos y fotos</label><br>
+                    <label><input type="radio" name="q3" value="D"> D) Configurar correos electrónicos</label><br>
+                
+                    <p>Pregunta 4: ¿Cuál es la principal función de PowerPoint?</p>
+                    <label><input type="radio" name="q4" value="A"> A) Crear hojas de cálculo</label><br>
+                    <label><input type="radio" name="q4" value="B"> B) Crear presentaciones visuales y dinámicas</label><br>
+                    <label><input type="radio" name="q4" value="C"> C) Desarrollar aplicaciones de diseño web</label><br>
+                    <label><input type="radio" name="q4" value="D"> D) Configurar bases de datos</label><br>
+                
+                    <p>Pregunta 5: ¿Qué tipo de gráfico NO se encuentra disponible en Excel?</p>
+                    <label><input type="radio" name="q5" value="A"> A) Circular</label><br>
+                    <label><input type="radio" name="q5" value="B"> B) Cotizaciones</label><br>
+                    <label><input type="radio" name="q5" value="C"> C) Vectorial 3D</label><br>
+                    <label><input type="radio" name="q5" value="D"> D) XY Dispersión</label><br>
+                
+                    <button type="button" onclick="calculateScore('officeAutomationQuiz', ['B', 'C', 'B', 'B', 'C'], 'officeScore')">Enviar Respuestas</button>
+                </div>                
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

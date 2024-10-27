@@ -1,0 +1,165 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: var(--bg-light);
+    color: var(--text-light);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Contenedor principal */
+.container {
+    text-align: center;
+    background-color: var(--container-bg);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+/* Variables de color para modo claro y oscuro */
+:root {
+    --bg-light: #f0f0f5;
+    --bg-dark: #121212;
+    --text-light: #000;
+    --text-dark: #fff;
+    --btn-light: #6a5acd;
+    --btn-dark: #5a4cb1;
+    --container-bg: #fff;
+}
+
+/* Modo oscuro */
+.dark-mode {
+    background-color: var(--bg-dark);
+    color: var(--text-dark);
+}
+
+.dark-mode .container {
+    background-color: #333;
+}
+
+/* Botones */
+.option-btn {
+    background-color: var(--btn-light);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.option-btn:hover {
+    background-color: var(--btn-dark);
+}
+
+/* Contenido */
+.content {
+    display: none;
+    margin-top: 20px;
+    text-align: left;
+}
+
+h2 {
+    color: var(--btn-light);
+}
+
+/* Preguntas del cuestionario */
+.quiz p {
+    margin: 15px 0 5px;
+    font-weight: bold;
+}
+
+.quiz label {
+    display: block;
+    margin: 5px 0;
+}
+
+/* Botón de envío de respuestas */
+.quiz button {
+    background-color: var(--btn-light);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.quiz button:hover {
+    background-color: var(--btn-dark);
+}
+
+/* Resultado del cuestionario */
+.quiz p#computerScore, .quiz p#officeScore {
+    font-weight: bold;
+    color: var(--btn-light);
+    margin-top: 15px;
+}
+
+/* Interruptor de modo claro/oscuro */
+.toggle-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 25px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 2.5px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #6a5acd;
+}
+
+input:checked + .slider:before {
+    transform: translateX(24px);
+}
+
+.mode-text {
+    margin-left: 10px;
+}
